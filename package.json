@@ -43,5 +43,11 @@
     "fs-extra": "^11.2.0",
     "node-polyfill-webpack-plugin": "^4.0.0",
     "retry-axios": "^2.6.0"
+  },
+  "resolutionReasons": {
+    "braces@^3.0.3": "dep of mocha ^10.5.2 https://github.com/sensat/aps-sdk-node/security/dependabot/8 "
+  },
+  "resolutions": {
+    "braces": "^3.0.3"
   }
 }
